@@ -55,10 +55,10 @@ build_exe_options = {
     "zip_exclude_packages": ["*"],  # Loại trừ tất cả package khỏi việc nén
 }
 
-# Thiết lập chương trình
+# Program Setup
 base = None
 if sys.platform == "win32":
-    base = "Win32GUI"  # Sử dụng GUI cho Windows
+    base = "Win32GUI"  # Using GUI for Windows
 
 setup(
     name="JinYeFace",
