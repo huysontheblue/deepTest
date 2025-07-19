@@ -51,8 +51,8 @@ build_exe_options = {
     "include_msvcr": True,
     "build_exe": "build_G",
     "optimize": 0,  # Tắt tối ưu hóa để dễ debug
-    "zip_include_packages": [],  # Không nén bất cứ package nào
-    "zip_exclude_packages": ["*"],  # Loại trừ tất cả package khỏi việc nén
+    "zip_include_packages": [],  # Do not compress any packages
+    "zip_exclude_packages": ["*"],  # Exclude all packages from compression
 }
 
 # Program Setup
