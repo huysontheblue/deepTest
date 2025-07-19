@@ -184,8 +184,8 @@ class FaceRecognitionApp:
         # Thêm dòng chữ "Programmed IT Việt Nam PMP - @2025" ở dưới cùng
         powered_label = tk.Label(login_frame, text="Programmed IT Việt Nam PMP - @2025", font=("Arial", 10),bg="#f0f0f0", fg="#666666")
         powered_label.pack(side=tk.BOTTOM, pady=10)
-        hubert_label = tk.Label(login_frame, text="Hubert_He", font=("Arial", 4), bg="#f0f0f0", fg="#666666")
-        hubert_label.pack(side=tk.BOTTOM, pady=5)
+        #hubert_label = tk.Label(login_frame, text="Hubert_He", font=("Arial", 4), bg="#f0f0f0", fg="#666666")
+        #hubert_label.pack(side=tk.BOTTOM, pady=5)
         # Focus vào ô tên đăng nhập
         self.username_entry.focus()
 
